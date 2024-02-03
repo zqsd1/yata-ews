@@ -1,0 +1,43 @@
+@import '../mixins';
+@import '../variables';
+
+
+tr {
+    &:nth-of-type(even) {
+
+        background-color: lighten(@gray-lt, @lighten) // rgba(0, 0, 0, .12);
+    }
+
+    th {
+        background: @secondary;
+        // #f1da16;
+        padding: 1em;
+    }
+
+}
+
+
+input[type=file] {
+    font-family: @font1;
+
+    &::file-selector-button {
+        visibility: collapse;
+    }
+}
+
+.export-csv-btn {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.container-ecowebscore {
+    background-color: @gray-lt;
+    // rgb(200, 200, 200);
+    padding: 1em;
+    margin: .2em;
+    // font-family: @font1;
+}
+
+.btn-nav-ecoweb {
+    margin: 1rem !important;
+}

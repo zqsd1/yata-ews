@@ -1,0 +1,25 @@
+tr:nth-of-type(even) {
+    background-color: rgba(0, 0, 0, .12);
+}
+
+th {
+    background: #f1da16;
+}
+
+th{
+    padding: 1em;
+}
+
+input[type=file]::file-selector-button {
+
+   visibility: collapse;
+}
+.container-ecowebscore{
+    background-color: rgb(200, 200, 200);
+     padding: 1em; 
+     margin: .2em;
+}
+
+.btn-nav-ecoweb{
+    margin: 1rem !important;
+}
